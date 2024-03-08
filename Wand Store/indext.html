@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wand Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-page" class="welcome-page">
+            <div class="welcome-content">
+                <img src="welcome.png" alt="Welcome Image"> <!-- Replace 'welcome_image.jpg' with your welcome image -->
+                <button id="start-shopping-btn" class="start-shopping-btn">Start Shopping</button>
+            </div>
+        </div>
+        <div id="wand-list" class="wand-list"></div> <!-- Added wand list div -->
+        <button id="checkout-btn" class="checkout-btn">Checkout</button> <!-- Added checkout button -->
+        <p id="thank-you-message" class="thank-you-message" style="display: none;"></p> <!-- Thank you message initially hidden -->
+        <p>Checkout Total: <span id="checkout-total">$0</span></p> <!-- Checkout total display -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

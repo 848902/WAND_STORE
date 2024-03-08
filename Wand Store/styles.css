@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.welcome-page {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-content {
+    position: relative;
+}
+
+.welcome-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.start-shopping-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.start-shopping-btn:hover {
+    background-color: #45a049;
+}
+
+.wand-list {
+    background-color: #c9c914; /* Yellow background for wand list */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wand {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.wand img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.wand-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.wand-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.checkout-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #0077a3;
+}
+
+.thank-you-message {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color for the thank you message */
+    margin-top: 20px;
+}
